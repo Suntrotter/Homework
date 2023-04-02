@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Lesson 2</title>
+        <style>
+            * {
+               background: beige;
+                }
+            p {
+             color: darkslateblue;
+             background: lightyellow;
+                }
+            h2 {
+            color: blue;
+                }
+        </style>
+    </head>
+    <body>
+        <h1 style = "color: red">Чему я научилась на втором уроке </h1>
+            <h2>Обрывать строки</h2>
+
+                <p>Хочу писать здесь. Стоп.<br>
+                А теперь перешла на другую строку.</p>
+
+            <h2>Делать строки жирными, выделять курсивом и цветным шрифтом, а также зачеркивать</h2>
+                <p><b>Эта строка жирная</b><br>
+                <strong>Эта тоже жирная, но сделанная логическим тэгом.</strong><br>
+                <i>Привет, я курсив</i><br>
+                <em>А я тоже курсив, но логический.</em><br>
+                <del>Меня зачеркнули</del>
+
+            <h2>Делать верхний и нижний индекс</h2>
+                <p><sub>Быстрее!</sub> Выше! <sup>Сильнее!</sup></p>
+
+            <h2>Вставлять ссылки</h2>
+                <p>В прошлой работе не вставила ссылку на статьи, которые я пишу. Исправляю упущение:) <a href = "https://internationalwealth.info/en/business-abroad/serbia-the-ultimate-guide-to-opening-a-company-and-a-bank-account/">Вот пример</a></p>
+
+            <h2>Вставлять картинки</h2>
+                <p>Например, хочу себе такую вот милоту</p><br>
+                <img src = "https://content1.rozetka.com.ua/goods/images/big/292361363.jpg" width = 200; height = 230; Alt = "Бавовнятко"> <br>
+
+            <h2>Вставлять видео</h2>
+                <p>Например, один из моих любимых клипов, где прекрасно все: и музыка, и танец, и вызываемые образы</p><br>
+                <iframe width="900" height="530" src="https://www.youtube.com/embed/ScVWkYZkZFk" title="Lindsey Stirling - First Light (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <h2>Вставлять аудио</h2>
+                <p>Милая музыка. Пусть побудет здесь.</p><br>
+                <iframe width="50%" height="150" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/926037277&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/angelique-bourdon-996911477" title="chacha.pnt" target="_blank" style="color: #cccccc; text-decoration: none;">chacha.pnt</a> · <a href="https://soundcloud.com/angelique-bourdon-996911477/lindsay-stirling-7-years" title="Lindsay Stirling 7 Years (acoustic).m4a.mp3" target="_blank" style="color: #cccccc; text-decoration: none;">Lindsay Stirling 7 Years (acoustic).m4a.mp3</a></div>
+
+            <h2>Оставлять форматирование текста неизменным</h2>
+                <pre>
+                    По
+                    щучьему
+                    велению
+                    по
+                    моему
+                    хотению
+                </pre>
+
+            <h2>Отображать знаки, которых нет на клавиатуре</h2>
+                <p>Меньше этого зарплату не предлагать:<br>
+                    &#8356; 100,000<br>
+                    &#8364; 80,000<br>
+                    &#8372; 200,000
+                </p>
+
+            <h2>Отображать HTML-код</h2>
+                <p>&lt;iframe&gt;&lt;/iframe&gt;</p>
+
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                 <!--Это чтобы внизу было пространство - мне так больше нравится-->
+    </body>
+</html>
