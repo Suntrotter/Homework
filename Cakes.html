@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        background-color: cornsilk;
+    }
+    header {
+        display: flex;
+        flex-direction: row;
+        margin: 20px;
+        justify-content: space-between;
+    }
+    nav {
+        display: flex;
+    }
+    #div-1, #div-2 {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        margin: 20px;
+
+    }
+    #div-1__1, div-2__1 {
+        display: flex;
+        flex-direction: column;
+    }
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+    #Dorty {
+        font-weight: bold;
+        font-size: 15px;
+        font-style: italic;
+        text-shadow: 5px 10px #d0ef90;
+        display: flex;
+        align-items: start;
+
+    }
+#button, #site-search {
+    height: 30px;
+    width: 100px;
+    background-color: #d0ef90;
+    border-radius: 10px;
+    border-style: dotted;
+
+}
+#button:hover {
+    background-color: #be9e1e;
+}
+    #site-search:hover {
+        background-color: lightskyblue;
+
+    }
+
+
+#div-header {
+    justify-content: end;
+    gap: 10px;
+}
+</style>
+<header>
+    <!--<p id="Dorty">Dorty</p-->
+    <nav>
+        <p id="Dorty">Dorty</p>
+        <ul>
+            <a href="www.google.com"><li>About us</li></a>
+            <a href="www.google.com"><li>Catalog</li></a>
+            <a href="www.google.com"><li>Delivery</li></a>
+            <a href="www.google.com"><li>Contact us</li></a>
+        </ul>
+    </nav>
+    <div id="div-header">
+    <input type="search" id="site-search" name="q" placeholder="&#128270;">
+        <button id="button" type="button" width="40" height="12">Basket</button>
+    </div>
+</header>
+<body>
+<div id="div-1">
+    <div id="div-1__1">
+    <h1>DELICIOUS CAKES TO ORDER!</h1>
+    <p>Unique handmade cakes and cookies</p>
+    <button id="button" type="button" width="70" height="25">Catalog</button>
+    </div>
+    <img src="https://ichef.bbci.co.uk/food/ic/food_16x9_832/recipes/rainbow_cake_20402_16x9.jpg" width="416" height="234">
+</div>
+<div id="div-2">
+    <img src="https://www.janespatisserie.com/wp-content/uploads/2022/10/30thBirthdayCake1-2.jpg" width="400" height="600">
+    <div id="div-2__1">
+       <h1>ABOUT US</h1>
+        <p>A small cozy pastry shop that will make your sweet dream come true. All products are selected for high quality and freshness. We prepare traditional pastries, as well as individual ones according to the wishes of the client.</p>
+    <br>
+        <p>We think over all details of the cake, design, the color scheme and decor.</p>
+        <button id="button" type="button" width="70" height="25">View blog</button>
+    </div>
+
+</div>
+</body>
+</html>
