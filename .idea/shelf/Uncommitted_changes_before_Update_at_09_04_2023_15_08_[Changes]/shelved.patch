@@ -1,0 +1,337 @@
+Index: index.html
+===================================================================
+diff --git a/index.html b/index.html
+deleted file mode 100644
+--- a/index.html	(revision 2a73d21125c870478440e2b3d763f023a2918a01)
++++ /dev/null	(revision 2a73d21125c870478440e2b3d763f023a2918a01)
+@@ -1,82 +0,0 @@
+-
+-<!DOCTYPE html>
+-<html lang="ru">
+-    <head>
+-        <meta charset="UTF-8">
+-        <title>About me</title>
+-        <link rel="icon" type="image/x-icon" href="https://www.favicon.cc/logo3d/911019.png">
+-        <style>
+-            :root {
+-               --background-color: rgba(243, 7, 42, 0.99);
+-               --background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+-            }
+-            body {
+-                background-color: var(--background-color);
+-                background-image: var(--background-image);
+-            }
+-
+-            .flex-container {
+-                display: flex;
+-                justify-content: space-between;
+-                flex-direction: row;
+-                margin: 30px;
+-                width: 1000px;
+-                }
+-            .flex-container-2 {
+-                display: flex;
+-                justify-content: space-between;
+-                flex-direction: row;
+-                margin: 30px;
+-                width: 660px;
+-                }
+-            p, h1 {
+-                text-align: left;
+-                width: 85%;
+-                padding-left: 10px;
+-                           }
+-            .one {
+-            text-align: center;
+-            font-weight: bold;
+-            font-style: italic;
+-            background-color: cornsilk;
+-            border-radius: 20px;
+-            margin: 30px;
+-
+-            }
+-
+-
+-           </style>
+-    </head>
+-    <body>
+-    <h1 class = "one">Это все я...</h1>
+-        <div class="flex-container">
+-        <div>
+-            <img src="https://i.ibb.co/Ms23Sft/photo-5278514364858614821-y.jpg" width = 320px height = 426px">
+-            <h1>Я - преподаватель</h1>
+-            <p>8 лет я работала преподавателем английского. 2 года в школе Соловова, когда еще была студенткой, и 6 лет в ДНУ. Преподавание – это мое, в общем-то. Работала все это время репетитором, тоже нравилось. Студентам я, как правило нравилась, хотя бывало всякое. Бывали и те, кто от меня плакал. Бывали и те, кто писал заявление «оставьте нам любимого препода». Перестала работать, потому что задолбали административные обязанности и захотелось денег. Несмотря на написанную на 70% диссертацию, сбежала на вольные хлеба, как только дома появился интернет.</p>
+-        </div>
+-        <div>
+-            <img src="https://i.ibb.co/Bw4z720/photo-5278514364858614817-y.jpg" width = 320px height = 426px">
+-            <h1>Я – переводчик</h1>
+-            <p>Фрилансерствую уже лет 15. Сначала жутко нравилось, в этом было мое развитие. В универе все-таки талдычишь одно и то же, а здесь пришлось нарабатывать специализацию. Ну и вообще какая-то была в этом романтика. Это сейчас каждый второй фрилансер, а тогда это было в диковинку. Ну и денег сразу стало в разы больше. И начальника над тобой нет. В общем, было хорошо. Сейчас разонравилось.</p>
+-        </div>
+-        <div>
+-            <img src="https://i.ibb.co/1MMGd8C/photo-5278514364858614820-y.jpg" width = 320px height = 426px">
+-            <h1>Я – психолог и коуч</h1>
+-            <p>Всегда нравилась психология, да и природная склонность к этому есть. Поэтому в 2019 году поступила в 2-годичный универ в Москве, получила второе высшее. С удовольствием бы занималась психологией, но увы – особенности этого рынка отвратили меня от дела, которому я бы могла посвятить себя. Рынок наводнен психологами-недоучками после трехмесячных курсов. Все, кто ни лень, называют себя коучем. Кто громче орет – того и клиенты. В общем, после двух лет пахоты на инсту и прохождения недешевых курсов по продвижению я выбыла из строя. Двое детей и определенные проблемы со здоровьем не дали мне дальше продолжать это потогонное мероприятие.</p>
+-        </div>
+-        </div>
+-        <div class = "flex-container-2">
+-        <div>
+-            <img src="https://i.ibb.co/kGY4T6j/photo-5278514364858614819-y.jpg" width = 320px height = 426px">
+-            <h1>Я – копирайтер</h1>
+-            <p>Последний год переключилась на копирайтинг на английском. Переводами тоже занимаюсь, но копирайтинг веселее. Это случайно стало моей «работой военного времени», потому что до войны работала с Москвой, сейчас эти каналы обрезаны. То, что платят наши бюро переводов, смехотворно. </p>
+-        </div>
+-        <div>
+-            <img src="https://i.ibb.co/cNCs1sN/photo-5278595071589074307-y.jpg" width = 320px height = 426px">
+-            <h1>Я – айтишник???</h1>
+-            <p>Это из серии «чем черт не шутит». Но почему бы не попробовать невозможное?:)</p>
+-        </div>
+-        </div>
+-    </body>
+-</html>
+\ No newline at end of file
+Index: Classwork_06_04.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Classwork_06_04.html b/Classwork_06_04.html
+new file mode 100644
+--- /dev/null	(date 1680802148241)
++++ b/Classwork_06_04.html	(date 1680802148241)
+@@ -0,0 +1,91 @@
++<!doctype html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport"
++          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
++    <title>Flowers</title>
++</head>
++<style>
++    body {
++        background: linear-gradient(to bottom, yellow, yellowgreen);
++    }
++    #camomile, #gerbera {
++        display: flex;
++        flex-direction: row;
++        gap: 15px;
++        margin: 15px;
++    }
++    nav {
++        display: flex;
++        gap: 15px;
++        height: 20px;
++    }
++
++.fa {
++  padding: 20px;
++  font-size: 30px;
++  width: 50px;
++  text-align: center;
++  text-decoration: none;
++  margin: 5px 2px;
++}
++
++.fa:hover {
++    opacity: 0.7;
++}
++
++.fa-facebook {
++  background: #3B5998;
++  color: white;
++}
++
++.fa-twitter {
++  background: #55ACEE;
++  color: white;
++}
++
++.fa-google {
++  background: #dd4b39;
++  color: white;
++}
++#facebook {
++    display: flex;
++    flex-direction: row;
++    justify-content: flex-start;
++    gap: 20px;
++#img {
++   margin-left: 50px;
++}
++    
++}
++</style>
++<header>
++    <nav>
++      <input type="search" id="site-search" name="q">
++        <button id="button" type="button" width="50" height="25">Search</button>
++        <!!img id="img" src="https://www.favicon.cc/logo3d/911019.png" width="50px" height="50px">
++    </nav>
++
++</header>
++<body>
++    <div id="camomile">
++        <img id="camomile" src="https://cdn.shopify.com/s/files/1/0272/6943/articles/Blog_CamomileTea.jpg?v=1624358766.jpg" width="400px" height="400px">
++        <p>Camomile is a wonderful flower.</p>
++    </div>
++    <div id="gerbera">
++        <p>Gerbera is fine, too.</p>
++        <img id="gerbera" src="https://www.coltivare.info/wp-content/uploads/2019/05/gerbere-7.jpg" width="400px" height="300px">
++    </div>
++    <div id="facebook">
++        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2503345.0294716563!2d5.27937025!3d52.21299185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609c3db87e4bb%3A0xb3a175ceffbd0a9f!2z0J3QuNC00LXRgNC70LDQvdC00Ys!5e0!3m2!1sru!2sua!4v1680797649501!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
++    <div id="icons">
++        <br>
++        <br>
++        <a href="#" class="fa fa-facebook"></a>
++        <a href="#" class="fa fa-twitter"></a>
++        <a href="#" class="fa fa-google"></a>
++    </div>
++    </div>
++</body>
++</html>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"26a002f2-619b-4a6a-bf0f-a326d5c4b7fe\" name=\"Changes\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2MhDlqkJOV29aWmbGL2U63eAfrp\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"DefaultHtmlFileTemplate\": \"HTML File\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"last_opened_file_path\": \"C:/Users/user/Lesson 1\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"settings.editor.selected.configurable\": \"preferences.keymap\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\user\\Lesson 1\" />\r\n      <recent name=\"C:\\Users\\user\\Lesson 1\\.idea\\images\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\user\\Lesson 1\\.idea\" />\r\n      <recent name=\"C:\\Users\\user\\Lesson 1\\.idea\\images\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"JavaScript Debug.Lesson 2\">\r\n    <configuration name=\"Lesson 2\" type=\"JavascriptDebugType\" temporary=\"true\" nameIsGenerated=\"true\" uri=\"http://localhost:63342/Lesson 1/Lesson 2\" useBuiltInWebServerPort=\"true\">\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"main\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <module name=\"Lesson 1\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/main.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"JavaScript Debug.Lesson 2\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"26a002f2-619b-4a6a-bf0f-a326d5c4b7fe\" name=\"Changes\" comment=\"\" />\r\n      <created>1678211075523</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1678211075523</updated>\r\n      <workItem from=\"1678211077237\" duration=\"9699000\" />\r\n      <workItem from=\"1678287023696\" duration=\"13778000\" />\r\n      <workItem from=\"1679420370805\" duration=\"43958000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\r\n          <url>file://$PROJECT_DIR$/main.py</url>\r\n          <line>8</line>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 2a73d21125c870478440e2b3d763f023a2918a01)
++++ b/.idea/workspace.xml	(date 1681041818754)
+@@ -4,7 +4,12 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="26a002f2-619b-4a6a-bf0f-a326d5c4b7fe" name="Changes" comment="" />
++    <list default="true" id="26a002f2-619b-4a6a-bf0f-a326d5c4b7fe" name="Changes" comment="домашка 2">
++      <change afterPath="$PROJECT_DIR$/Classwork_06_04.html" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/index_init.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -17,6 +22,22 @@
+       </list>
+     </option>
+   </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
++  "lastFilter": {
++    "state": "OPEN"
++  }
++}]]></component>
++  <component name="GithubPullRequestsUISettings">
++    <option name="selectedUrlAndAccountId">
++      <UrlAndAccount>
++        <option name="accountId" value="361ece81-1111-408a-a47f-fc070cd294ff" />
++        <option name="url" value="https://github.com/Suntrotter/Homework.git" />
++      </UrlAndAccount>
++    </option>
++  </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+   </component>
+@@ -24,6 +45,7 @@
+     <option name="selectedTabId" value="CurrentFile" />
+   </component>
+   <component name="ProjectId" id="2MhDlqkJOV29aWmbGL2U63eAfrp" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+@@ -95,12 +117,65 @@
+       <updated>1678211075523</updated>
+       <workItem from="1678211077237" duration="9699000" />
+       <workItem from="1678287023696" duration="13778000" />
+-      <workItem from="1679420370805" duration="43958000" />
++      <workItem from="1679420370805" duration="74927000" />
+     </task>
++    <task id="LOCAL-00001" summary="домашка">
++      <created>1680426262013</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1680426262013</updated>
++    </task>
++    <task id="LOCAL-00002" summary="домашка">
++      <created>1680518404782</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1680518404782</updated>
++    </task>
++    <task id="LOCAL-00003" summary="домашка">
++      <created>1680696038165</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1680696038165</updated>
++    </task>
++    <task id="LOCAL-00004" summary="домашка">
++      <created>1680795529471</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1680795529472</updated>
++    </task>
++    <task id="LOCAL-00005" summary="домашка 2">
++      <created>1681041808217</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1681041808217</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="1" />
++    <MESSAGE value="домашка" />
++    <MESSAGE value="домашка 2" />
++    <option name="LAST_COMMIT_MESSAGE" value="домашка 2" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+Index: index_init.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index_init.html b/index_init.html
+new file mode 100644
+--- /dev/null	(date 1680802483053)
++++ b/index_init.html	(date 1680802483053)
+@@ -0,0 +1,12 @@
++<!doctype html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport"
++          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++
++</body>
++</html>
+\ No newline at end of file
