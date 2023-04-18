@@ -4,56 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>Document</title>
+    <title>Cake-shop</title>
+    <link rel="stylesheet" href="Cakes.css"/>
 </head>
-<style>
-    
-    * {
-        font-family: "Roboto Thin";
-        background-color: #F5F5F5;
-
-    }
-    h1 {
-        text-align: center;
-        margin-bottom: 50px;
-    }
-    ul, .row {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        color: grey;
-    }
-    .row-2 {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        margin-top: 30px;
-    }
-    li {
-        list-style: none;
-            padding: 40px 60px;
-            background-image: url("https://raw.githubusercontent.com/katas8n/cake-shop-py/kir/public/icons/arcticons_cake.png");
-            background-repeat: no-repeat;
-            background-position: left center;
-            background-size: 40px;
-    }
-    #long-pic {
-        margin-top: 100px;
-        margin-bottom: 100px;
-    }
-</style>
 <body>
     <div>
         <h1>WHY CHOOSE US</h1>
 
-        <ul>
-            <li>DELICIOUS DESSERTS<br>Desserts prepared with<br> the best technology</li>
-            <li>NATURAL INGREDIENTS<br>Only natural ingredients<br> from trusted suppliers</li>
-            <li>AVAILABLE SERVICE<br>Reasonable prices and convenient <br>delivery around the city</li>
+        <ul id="delicious">
+            <li class="delicious">DELICIOUS DESSERTS<br>Desserts prepared with<br> the best technology</li>
+            <li class="delicious">NATURAL INGREDIENTS<br>Only natural ingredients<br> from trusted suppliers</li>
+            <li class="delicious">AVAILABLE SERVICE<br>Reasonable prices and convenient <br>delivery around the city</li>
         </ul>
     </div>
     <div id="long-pic">
-        <img src="https://raw.githubusercontent.com/katas8n/cake-shop-py/kir/public/images/cakes/cake-3.png" width="100%">
+        <img src="https://github.com/katas8n/cake-shop-py/blob/kir/public/images/banners/banner.png?raw=true" width="100%">
     </div>
         <h1>CATALOG</h1>
     <div class="row">
@@ -66,5 +31,110 @@
         <p>COOKIES</p>
         <p>CUPCAKES</p>
     </div>
+
+    <h1 id="h1">OUR CUSTOMERS LOVE WHAT WE DO<h1>
+        <div id="customers">
+            <div class="gray" id="first">
+                <div id="anastasia_image">
+                    <img id="round" class="first-img" src="https://github.com/katas8n/cake-shop-py/blob/kir/public/images/people/person-2.png?raw=true">
+                    <p class="gray" id="anastasia">ANASTASIA</p>
+                </div>
+                    <p class="gray" id="anastasia">"Very tasty cakes! Ordered for my daughter's birthday, the guests were satisfied."</p>
+            </div>
+            <div class="gray" id="second">
+                <div id="anastasia_image">
+                    <img id="round" src="https://github.com/katas8n/cake-shop-py/blob/kir/public/images/people/person-1.png?raw=true">
+                    <p class="gray" id="anastasia">JULIA</p>
+                </div>
+                    <p class="gray" id="anastasia">"Very tasty cakes! Ordered for my daughter's birthday, the guests were satisfied."</p>
+            </div>
+            <div id="third">
+                <div id="kristina_image">
+                    <img id="round" src="https://github.com/katas8n/cake-shop-py/blob/kir/public/images/people/person-3.png?raw=true">
+                    <p id="kristina">KRISTINA</p>
+                </div>
+                    <p id="kristina">"Very tasty cakes! Ordered for my daughter's birthday, the guests were satisfied."</p>
+            </div>
+        </div>
+            <p id="more">More <img id="search-1" src="https://github.com/katas8n/cake-shop-py/blob/kir/public/icons/side-panel.png?raw=true" width="20" height="20"></p>
+        <div>
+          <h1>BESTSELLERS</h1>
+        </div>
+        <div id="bestsellers">
+            <img src="https://github.com/katas8n/cake-shop-py/blob/kir/public/images/bestsellers/bestseller-1.png?raw=true" width="440" height="440">
+            <img src="https://github.com/katas8n/cake-shop-py/blob/kir/public/images/bestsellers/bestseller-2.png?raw=true" width="440" height="440">
+            <img src="https://github.com/katas8n/cake-shop-py/blob/kir/public/images/bestsellers/bestseller-3.png?raw=true" width="440" height="440">
+        </div>
+        <div id="subs">
+            <p>CHOCOLATE BISQUITE</p>
+            <p>123$</p>
+            <p id="box">+</p>
+            <p>YOGURT CHEESECAKE</p>
+            <p>123$</p>
+            <p id="box">+</p>
+            <p>MILK CREAM CUPCAKE</p>
+            <p>123$</p>
+            <p id="box">+</p>
+        </div>
+        <div id="squares">
+            <span id="span-1"></span>
+            <span id="span-2"></span>
+        </div>
+        <div>
+            <button id="button" type="button" width="100" height="50">Catalog</button>
+        </div>
+        <div id="order-form">
+            <h1 id="order-form__element">INDIVIDUAL ORDER</h1>
+            <input id="order-form__element" placeholder="Your name">
+            <input id="order-form__element" placeholder="Phone number">
+            <input id="order-form__element" placeholder="Email">
+            <input id="order-form__element" placeholder="Leave your comment">
+            <button id="order-form__button" type="button" width="100" height="80">&#x1F4CE; Or attach a photo</button>
+            <button id="order-form__button-2" type="button" width="100" height="80">Send an application</button>
+            <p id="order-form__comment">Our manager will contact you within 15 minutes to clarify the order.</p>
+        </div>
+        <div>
+            <footer>
+                <div id="footer__container">
+                    <div id="Dorty">
+                        <ul>
+                            <li id="footer-1"><img src="https://github.com/katas8n/cake-shop-py/blob/kir/public/icons/logo.png?raw=true" width="80" height="45"></li>
+                            <li id="footer-2"><img src="https://github.com/katas8n/cake-shop-py/blob/kir/public/icons/social-media-instagram.png?raw=true" width="50" height="50"><img src="https://github.com/katas8n/cake-shop-py/blob/kir/public/icons/social-media-telegram.png?raw=true" width="50" height="50"><img src="https://github.com/katas8n/cake-shop-py/blob/kir/public/icons/social-media-instagram.png?raw=true" width="50" height="50"></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li id="footer-bold">Information</li>
+                            <li id="footer">About us</li>
+                            <li id="footer">Catalog</li>
+                            <li id="footer">Delivery</li>
+                            <li id="footer">Contact us</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li id="footer-bold">Address</li>
+                            <li id="footer">Ukraine, Dnipro</li>
+                            <li id="footer">887-549-00-15</li>
+                            <li id="footer">887-549-00-15</li>
+                            </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li id="footer-bold">Get in touch</li>
+                            <li id="footer">Subscribe to our newsletter and stay<br> up to date with all the news</li>
+                            <li id="footer" class="input"><input placeholder="Enter your e-mail"><img id="search" src="https://github.com/katas8n/cake-shop-py/blob/kir/public/icons/side-panel.png?raw=true" width="20" height="20"></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="nav">
+                        <p id="nav">Privacy Policy</p>
+                        <p id="nav">Company Data</p>
+                        <p id="nav">All Cookies</p>
+                        <p id="nav">Rules</p>
+                </div>
+                <p id="nav-2">&#169 2022 All rights reserved</p>
+                </footer>
+            </div>
 </body>
 </html>

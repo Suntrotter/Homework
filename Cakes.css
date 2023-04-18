@@ -1,0 +1,287 @@
+* {
+        font-family: "Roboto Thin";
+        background-color: #F5F5F5;
+
+    }
+    h1 {
+        text-align: center;
+        margin-bottom: 50px;
+        font-size: 42px;
+        color: #2E2920;
+    }
+    #delicious {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        color: grey;
+    }
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        color: grey;
+    }
+    .row-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+    .delicious {
+        list-style: none;
+            padding: 40px 60px;
+            background-image: url("https://raw.githubusercontent.com/katas8n/cake-shop-py/kir/public/icons/arcticons_cake.png");
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: 40px;
+    }
+    #long-pic {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    #round {
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+
+    }
+    #customers {
+        font-size: 10px;
+        width: 20%;
+        color: grey;
+    }
+    #first {
+        position: relative;
+        left: 500px;
+        top:30px;
+        border: 1px #DFDFDF;
+        background-color: #DFDFDF;
+        padding: 10px;
+        z-index: 2;
+    }
+    #anastasia {
+        background-color: #DFDFDF;
+        margin-bottom: 20px;
+    }
+    #kristina {
+        background-color: #F5F5F5;
+        margin-bottom: 20px;
+    }
+    #second {
+        position: relative;
+        left: 900px;
+        bottom: 120px;
+        border: 1px #DFDFDF;
+        background-color: #DFDFDF;
+        padding: 10px;
+    }
+    #third {
+        position: relative;
+        left: 700px;
+        bottom: 100px;
+        border: 1px solid #DFDFDF;
+        background-color: #F5F5F5;
+        z-index: 1;
+        padding: 10px;
+    }
+    #more {
+        text-align: end;
+        position: relative;
+        right: 600px;
+        bottom: 140px;
+        font-size: 18px;
+        color: gray;
+
+    }
+    #h1 {
+        margin-top: 40px;
+    }
+    #bestsellers {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 40px;
+    }
+    #box {
+        border: solid black;
+        border-width: 1px;
+        border-height: 1px;
+        width: 25px;
+        position: relative;
+        right: 60px;
+
+    }
+    #subs {
+        font-size: 20px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 55px;
+        justify-content: space-evenly;
+    }
+
+    #button {
+        width: 150px;
+        height: 40px;
+        font-size: 18px;
+    }
+    #span-1 {
+        border: 1px #777777;
+        width: 12px;
+        height: 12px;
+        background: #777777;
+        border-radius: 3px;
+    }
+    #span-2 {
+        border: 1px #DFDFDF;
+        width: 12px;
+        height: 12px;
+        background: #DFDFDF;
+        border-radius: 3px;
+    }
+    #squares {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 13px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    footer {
+        font-size: 18px;
+        padding: 5px;
+        color: #777777;
+        text-align: start;
+    }
+    #footer-2 {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    #footer-1 {
+        line-height: 54px;
+        list-style: none;
+    }
+    #Dorty {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+
+
+    }
+    #footer {
+        list-style: none;
+        display: flex;
+        justify-content: start;
+        line-height: 200%;
+        font-weight: lighter;
+    }
+            background-image: url("https://raw.githubusercontent.com/katas8n/cake-shop-py/kir/public/icons/arcticons_cake.png");
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: 40px;
+    }
+    #long-pic {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    #footer-bold {
+        list-style: none;
+        display: flex;
+        justify-content: start;
+        font-weight: bolder;
+        line-height: 200%;
+    }
+
+    #footer__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 50px;
+        text-align: left;
+        margin-top: 30px;
+    }
+    input {
+        outline: none;
+        border-top-style: none;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        margin-top: 20px;
+    }
+    #search {
+        position: relative;
+        right: 20px;
+        top: 18px;
+    }
+    #nav {
+        display: flex;
+        flex-direction: row;
+        font-weight: lighter;
+        margin-left: 50px;
+        gap: 45px;
+    }
+    #nav-2 {
+        font-weight: lighter;
+        margin-left: 100px;
+    }
+    #anastasia_image {
+        background-color: #DFDFDF;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    #kristina_image {
+        background-color: #F5F5F5;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    #search-1 {
+        position: relative;
+        top: 5px;
+    }
+    #order-form {
+        background-image: url("https://github.com/katas8n/cake-shop-py/blob/kir/public/images/backgrounds/background-1.png?raw=true");
+        width: 1450px;
+        height: 700px;
+        margin-left: 170px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding-top: 100px;
+        padding-left: 56px;
+        margin-top: 100px;
+
+    }
+    #order-form__element {
+        background: initial;
+        width: 500px;
+        line-height: 200%;
+        border-bottom-color: #DFDFDF;
+        font-size: 18;
+        color: #777777;
+      }
+    #order-form__button {
+        height: 48px;
+        width: 191px;
+        padding: 12px;
+        margin-top: 20px;
+        font-size: 16px;
+        background-color: #777777;
+        color: white;
+    }
+    #order-form__button-2 {
+        margin-top: 50px;
+        width: 270px;
+        height: 55px;
+        font-size: 18px;
+        background: initial;
+    }
+    #order-form__comment {
+        color: #777777;
+        width: 340px;
+        font-size: 16px;
+        background: initial;
+        text-align: left;
+        margin-top: 25px;
+    }
